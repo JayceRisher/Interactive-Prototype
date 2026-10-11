@@ -22,7 +22,7 @@ nav li a {
     text-decoration: none;
 }
 nav li a:hover {
-    background-color: #111;
+    background-color: #111111;
 }
 body {
     font-family: Arial, sans-serif;
@@ -48,9 +48,21 @@ body img {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
+h1 {
+    font-size: 20px;
+}
 article {
     padding: 20px;
     margin: 10px;
+}
+article a {
+    text-decoration: none;
+    color: #1c86f0;
+}
+article a:hover {
+    text-decoration: underline;
+    background-color: #111;
+    color: white;
 }
 .articlesGrid {
     padding: 20px;
